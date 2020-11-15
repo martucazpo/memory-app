@@ -3,6 +3,6 @@ const addMaterialController = require("../controllers/addMaterial");
 
 router.route("/tableName").post(addMaterialController.createNewTable);
 
-router.route("/addMaterial").post(addMaterialController.AddMaterial);
+router.route("/:tableName").post(addMaterialController.AddMaterial);
 
 module.exports = router;

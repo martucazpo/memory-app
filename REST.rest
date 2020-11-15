@@ -7,9 +7,10 @@ content-type: application/json
 
 ###
 
-POST http://localhost:5000/add/addMaterial HTTP/1.1
+POST http://localhost:5000/add/TestTable HTTP/1.1
 content-type: application/json
 
 {
-    "tableName": "TestTable"
+    "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur vitae nunc sed velit dignissim sodales ut eu. Et magnis dis parturient montes nascetur. Gravida arcu ac tortor dignissim. Mauris pellentesque pulvinar pellentesque habitant. Aliquam malesuada bibendum arcu vitae elementum. Rhoncus aenean vel elit scelerisque mauris. Rhoncus dolor purus non enim praesent elementum facilisis. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Massa tincidunt dui ut ornare lectus sit amet est. Ipsum dolor sit amet consectetur adipiscing elit ut. Ac felis donec et odio pellentesque diam volutpat.",
+    "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Volutpat maecenas volutpat blandit aliquam etiam. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Proin sed libero enim sed faucibus turpis. Eu sem integer vitae justo. Euismod lacinia at quis risus. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Nisl nisi scelerisque eu ultrices vitae auctor eu augue ut. Egestas sed sed risus pretium quam vulputate dignissim suspendisse in. Consequat nisl vel pretium lectus quam id leo in. Urna neque viverra justo nec ultrices dui. Nunc vel risus commodo viverra. In hendrerit gravida rutrum quisque. Sapien et ligula ullamcorper malesuada. Enim diam vulputate ut pharetra sit amet aliquam id. Nec ultrices dui sapien eget mi proin."
 }
